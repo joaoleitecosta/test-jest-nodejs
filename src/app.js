@@ -6,7 +6,7 @@ import 'express-async-errors';
 
 import routes from './routes';
 
-import './database';
+import './database/index';
 
 class App {
   constructor() {
